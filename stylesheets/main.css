@@ -44,3 +44,33 @@ header .top-right-content .dropdown-menu li a:hover {
   color: #00224f;
   background-color: #ffc107;
 }
+
+/* line 1, ../sass/module/_footer.scss */
+footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+/* line 5, ../sass/module/_footer.scss */
+footer .ourfamily {
+  padding: 10px 0;
+  background-color: #f5f6f8;
+  border-top: 1px solid #e3e6ea;
+  border-bottom: 1px solid #e3e6ea;
+}
+/* line 10, ../sass/module/_footer.scss */
+footer .ourfamily img {
+  width: 10%;
+  padding: 0 10px;
+  opacity: 0.5;
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+/* line 16, ../sass/module/_footer.scss */
+footer .ourfamily img:hover {
+  -webkit-filter: grayscale(0%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  opacity: 1;
+}
