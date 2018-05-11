@@ -1,6 +1,11 @@
 
 body{
-	line-height: 1.75;
+	line-height: 1.95;
+}
+a{
+	&:hover{
+		text-decoration: 	none;
+	}
 }
 // section padding
 .section-padding{
