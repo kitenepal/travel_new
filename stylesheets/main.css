@@ -235,25 +235,25 @@ footer .footer--address .social-media .social {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
 }
-/* line 51, ../sass/module/_footer.scss */
-footer .footer ul {
+/* line 52, ../sass/module/_footer.scss */
+footer .footer--detail ul {
   display: inline;
   list-style-type: none;
 }
-/* line 55, ../sass/module/_footer.scss */
-footer .footer ul li a {
+/* line 56, ../sass/module/_footer.scss */
+footer .footer--detail ul li a {
   color: #e9e9e9;
 }
-/* line 57, ../sass/module/_footer.scss */
-footer .footer ul li a:hover {
+/* line 58, ../sass/module/_footer.scss */
+footer .footer--detail ul li a:hover {
   color: #ffc107;
 }
-/* line 59, ../sass/module/_footer.scss */
-footer .footer ul li a:hover i {
+/* line 60, ../sass/module/_footer.scss */
+footer .footer--detail ul li a:hover i {
   padding-right: 15px;
 }
-/* line 63, ../sass/module/_footer.scss */
-footer .footer ul li a i {
+/* line 64, ../sass/module/_footer.scss */
+footer .footer--detail ul li a i {
   padding-right: 10px;
   transition: 0.2s;
 }
