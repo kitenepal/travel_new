@@ -74,6 +74,46 @@ header .top-right-content .dropdown-menu li a:hover {
   background-color: #ffc107;
 }
 
+/* line 40, ../sass/module/_header.scss */
+.hero-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/gbbig.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+}
+/* line 46, ../sass/module/_header.scss */
+.hero-image .booking-engine {
+  transform: translateY(30vh);
+}
+/* line 49, ../sass/module/_header.scss */
+.hero-image .booking-engine .filter-result button {
+  background: url("http://www.traveliteindia.com/images/floral-background.jpg");
+  color: white;
+  border: 0px;
+  border-radius: 0px;
+  outline: 0px;
+  padding: 5px 15px;
+  transition: all 0.3s ease 0s;
+}
+/* line 57, ../sass/module/_header.scss */
+.hero-image .booking-engine .filter-result button:hover {
+  box-shadow: 2px 2px 5px 0px #000;
+}
+/* line 60, ../sass/module/_header.scss */
+.hero-image .booking-engine .filter-result button:active {
+  transform: scale(0.9);
+}
+
+@media screen and (max-width: 767px) {
+  /* line 69, ../sass/module/_header.scss */
+  .hero-image .booking-engine {
+    transform: translateY(1vh);
+  }
+  /* line 71, ../sass/module/_header.scss */
+  .hero-image .booking-engine .filter-result {
+    margin-bottom: 5px;
+  }
+}
 /* line 1, ../sass/module/_nav.scss */
 .navbar {
   border: none;

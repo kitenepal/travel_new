@@ -36,3 +36,40 @@ header{
 		}
 	}
 }
+
+.hero-image{
+	background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+	            url(../images/gbbig.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 70vh;
+	.booking-engine{
+		transform: translateY(30vh);
+		.filter-result{
+			button{
+				background: url("http://www.traveliteindia.com/images/floral-background.jpg");
+				color: white;
+				border: 0px;
+				border-radius: 0px;
+				outline: 0px;
+				padding: 5px 15px;
+			  transition: all 0.3s ease 0s;
+				&:hover{
+			  	box-shadow: 2px 2px 5px 0px #000;
+				}
+				&:active{
+					transform: scale(0.9);
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 767px){
+	.hero-image .booking-engine{
+		transform: translateY(1vh);
+		.filter-result{
+			margin-bottom: 5px;
+		}
+	}
+}
