@@ -257,12 +257,13 @@ footer .footer--detail ul li a i {
   padding-right: 10px;
   transition: 0.2s;
 }
+
 /* line 75, ../sass/module/_footer.scss */
 .copyright {
   text-align: center;
   background-color: #00224f;
   color: #fff;
-  border-top: 1px solid black;
+  border-top: 1px solid #ffc107;
 }
 /* line 80, ../sass/module/_footer.scss */
 .copyright h4 {
