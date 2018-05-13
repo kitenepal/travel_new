@@ -71,3 +71,14 @@
 						    }
 						  }
 						}
+						// copyright--------------------------------------------
+						.copyright{
+							text-align: center;
+							background-color: $primary-color;
+							color: #fff;
+							border-top: 1px solid black;
+							h4{
+								margin: 0;
+								padding: 20px 0;
+							}
+						}
