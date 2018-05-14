@@ -92,18 +92,30 @@ header .top-right-content .dropdown-menu li a:hover {
 /* line 50, ../sass/module/_header.scss */
 .hero-image .booking-engine .booking-headings .heading-list {
   list-style-type: none;
+  padding: 10px;
   margin: 0;
 }
-/* line 53, ../sass/module/_header.scss */
+/* line 54, ../sass/module/_header.scss */
 .hero-image .booking-engine .booking-headings .heading-list li {
   display: inline;
-  padding: 10px;
+  padding-right: 10px;
 }
-/* line 59, ../sass/module/_header.scss */
+/* line 57, ../sass/module/_header.scss */
+.hero-image .booking-engine .booking-headings .heading-list li a {
+  color: #fff;
+  padding: 15px;
+  transition: .3s ease;
+}
+/* line 61, ../sass/module/_header.scss */
+.hero-image .booking-engine .booking-headings .heading-list li a:hover {
+  color: #00224f;
+  background: #fff;
+}
+/* line 69, ../sass/module/_header.scss */
 .hero-image .booking-engine .filter-result {
   padding: 0px;
 }
-/* line 61, ../sass/module/_header.scss */
+/* line 71, ../sass/module/_header.scss */
 .hero-image .booking-engine .filter-result button {
   background: url("http://www.traveliteindia.com/images/floral-background.jpg");
   color: white;
@@ -113,26 +125,26 @@ header .top-right-content .dropdown-menu li a:hover {
   padding: 4px 15px;
   transition: all 0.3s ease 0s;
 }
-/* line 69, ../sass/module/_header.scss */
+/* line 79, ../sass/module/_header.scss */
 .hero-image .booking-engine .filter-result button:hover {
   box-shadow: 2px 2px 5px 0px #000;
 }
-/* line 72, ../sass/module/_header.scss */
+/* line 82, ../sass/module/_header.scss */
 .hero-image .booking-engine .filter-result button:active {
   transform: scale(0.9);
 }
 
-/* line 79, ../sass/module/_header.scss */
+/* line 89, ../sass/module/_header.scss */
 .form-control {
   border-radius: 0;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 83, ../sass/module/_header.scss */
+  /* line 93, ../sass/module/_header.scss */
   .hero-image .booking-engine {
     transform: translateY(1vh);
   }
-  /* line 85, ../sass/module/_header.scss */
+  /* line 95, ../sass/module/_header.scss */
   .hero-image .booking-engine .filter-result {
     margin-bottom: 5px;
   }
