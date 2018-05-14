@@ -221,6 +221,34 @@ header .top-right-content .dropdown-menu li a:hover {
     font-size: 1em;
   }
 }
+/* line 2, ../sass/module/_destination.scss */
+.owl-carousel .item {
+  background-color: #fff;
+}
+/* line 4, ../sass/module/_destination.scss */
+.owl-carousel .item h4 {
+  color: #00224f;
+  margin-top: 15px;
+  font-weight: bold;
+}
+/* line 9, ../sass/module/_destination.scss */
+.owl-carousel .item h5 {
+  color: #00224f;
+  padding-bottom: 25px;
+}
+
+/* line 16, ../sass/module/_destination.scss */
+.customNavigation .btn-carousel {
+  background-color: #00224f;
+  color: #ffc107;
+}
+/* line 19, ../sass/module/_destination.scss */
+.customNavigation .btn-carousel:hover {
+  background-color: #00224f;
+  color: #ffc107;
+  opacity: 0.9;
+}
+
 /* line 1, ../sass/module/_footer.scss */
 .ourfamily {
   padding: 10px 0;
