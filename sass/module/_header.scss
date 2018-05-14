@@ -45,14 +45,26 @@ header{
 	height: 70vh;
 	.booking-engine{
 		transform: translateY(30vh);
+		.booking-headings{
+			background: $primary-color;
+			.heading-list{
+				list-style-type: none;
+				margin: 0;
+				li{
+					display: inline;
+					padding: 10px;
+				}
+			}
+		}
 		.filter-result{
+			padding: 0px;
 			button{
 				background: url("http://www.traveliteindia.com/images/floral-background.jpg");
 				color: white;
 				border: 0px;
 				border-radius: 0px;
 				outline: 0px;
-				padding: 5px 15px;
+				padding: 4px 15px;
 			  transition: all 0.3s ease 0s;
 				&:hover{
 			  	box-shadow: 2px 2px 5px 0px #000;
@@ -64,7 +76,9 @@ header{
 		}
 	}
 }
-
+.form-control{
+	border-radius: 0;
+}
 @media screen and (max-width: 767px){
 	.hero-image .booking-engine{
 		transform: translateY(1vh);
