@@ -288,28 +288,36 @@ header .top-right-content .dropdown-menu li a:hover {
 .hot_deals .hd-item {
   border: 1px solid #c0c0c0;
   margin: 20px 0;
+  transition: 0.2s;
 }
-/* line 5, ../sass/module/_hotDeals.scss */
+/* line 6, ../sass/module/_hotDeals.scss */
+.hot_deals .hd-item:hover {
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 2, 34, 0.5);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 2, 34, 0.5);
+  box-shadow: 0px 0px 20px 0px rgba(0, 2, 34, 0.5);
+  transform: scale(1.05);
+}
+/* line 12, ../sass/module/_hotDeals.scss */
 .hot_deals .hd-item hr {
   background-color: #c0c0c0;
   height: 1px;
 }
-/* line 9, ../sass/module/_hotDeals.scss */
+/* line 16, ../sass/module/_hotDeals.scss */
 .hot_deals .hd-item .rate {
   font-weight: bold;
   font-size: 15px;
 }
-/* line 13, ../sass/module/_hotDeals.scss */
+/* line 20, ../sass/module/_hotDeals.scss */
 .hot_deals .hd-item .rate-old {
   color: red;
   padding-left: 5px;
   font-size: 12px;
 }
-/* line 18, ../sass/module/_hotDeals.scss */
+/* line 25, ../sass/module/_hotDeals.scss */
 .hot_deals .hd-item .primary-btn {
   margin: 0;
 }
-/* line 21, ../sass/module/_hotDeals.scss */
+/* line 28, ../sass/module/_hotDeals.scss */
 .hot_deals .hd-item .hd-content {
   padding: 0 20px 20px 20px;
 }
