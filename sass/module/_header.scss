@@ -44,13 +44,21 @@ header{
 	background-position: center;
 	height: 70vh;
 	.booking-engine{
-		transform: translateY(30vh);
+		transform: translateY(25vh);
+		h3{
+			color: #fff;
+		}
 		.booking-headings{
-			background: $primary-color;
+			background: rgba(0, 34, 79, 0.6);
 			.heading-list{
 				list-style-type: none;
 				padding: 10px;
 				margin: 0;
+				overflow-x: scroll;
+				white-space: nowrap;
+				&::-webkit-scrollbar{
+					display: none;
+				}
 				li{
 					display: inline;
 					padding-right: 10px;
@@ -89,11 +97,36 @@ header{
 .form-control{
 	border-radius: 0;
 }
-@media screen and (max-width: 767px){
+
+@media screen and (min-width: 767px){
 	.hero-image .booking-engine{
-		transform: translateY(1vh);
-		.filter-result{
-			margin-bottom: 5px;
+	.booking-headings{
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+	}
+	.filter-result button{
+		border-bottom-right-radius: 10px;
+	}
+	.bblr{
+		border-bottom-left-radius: 10px;
+
+	}
+}
+}
+
+@media screen and (max-width: 767px){
+	.hero-image{
+		height: 100vh;
+		.booking-engine{
+			transform: translateY(0vh);
+			padding: 5px;
+			h3{
+				margin: 0px;
+			}
+			.filter-result{
+				margin-bottom: 5px;
+				padding: 2px 15px 0px 15px;
+			}
 		}
 	}
 }
