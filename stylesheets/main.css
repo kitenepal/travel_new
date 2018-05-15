@@ -308,16 +308,20 @@ header .top-right-content .dropdown-menu li a:hover {
   font-size: 15px;
 }
 /* line 20, ../sass/module/_hotDeals.scss */
+.hot_deals .hd-item .rate-new {
+  color: green;
+}
+/* line 23, ../sass/module/_hotDeals.scss */
 .hot_deals .hd-item .rate-old {
   color: red;
   padding-left: 5px;
   font-size: 12px;
 }
-/* line 25, ../sass/module/_hotDeals.scss */
+/* line 28, ../sass/module/_hotDeals.scss */
 .hot_deals .hd-item .primary-btn {
   margin: 0;
 }
-/* line 28, ../sass/module/_hotDeals.scss */
+/* line 31, ../sass/module/_hotDeals.scss */
 .hot_deals .hd-item .hd-content {
   padding: 0 20px 20px 20px;
 }
