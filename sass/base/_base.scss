@@ -20,12 +20,14 @@ a{
 // primary button
 .primary-btn{
 	background-color: $secondary-color;
-	color: #fff;
+	color: $primary-color;
+	font-weight: bold;
 	transition: 0.2s;
 	margin: 10px 0;
+	border-radius: 0;
 	&:hover, &:focus{
 		background-color: $primary-color;
-		color: #fff;
+		color: $secondary-color;
 		border: 1px solid $secondary-color;
 	}
 }
