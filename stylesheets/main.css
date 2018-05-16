@@ -98,50 +98,64 @@ header .top-right-content .dropdown-menu li a:hover {
   background-color: #ffc107;
 }
 
+/* line 44, ../sass/module/_header.scss */
+.navbar-brand {
+  padding: 0px;
+}
+/* line 46, ../sass/module/_header.scss */
+.navbar-brand img {
+  width: 215px;
+}
+
+/* line 50, ../sass/module/_header.scss */
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #00224f;
+}
+
 @media only screen and (max-width: 750px) {
-  /* line 47, ../sass/module/_header.scss */
+  /* line 56, ../sass/module/_header.scss */
   header .top-left-content a i {
     display: none;
   }
-  /* line 50, ../sass/module/_header.scss */
+  /* line 59, ../sass/module/_header.scss */
   header .top-left-content div:nth-child(3) {
     display: none;
   }
-  /* line 54, ../sass/module/_header.scss */
+  /* line 63, ../sass/module/_header.scss */
   header .top-right-content {
     text-align: left;
   }
 }
 @media only screen and (max-width: 1050px) {
-  /* line 61, ../sass/module/_header.scss */
+  /* line 70, ../sass/module/_header.scss */
   header {
     text-align: center;
   }
-  /* line 63, ../sass/module/_header.scss */
+  /* line 72, ../sass/module/_header.scss */
   header .top-right-content {
     text-align: center;
   }
 }
-/* line 70, ../sass/module/_header.scss */
+/* line 79, ../sass/module/_header.scss */
 .hero-image {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/gbbig.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 70vh;
 }
-/* line 76, ../sass/module/_header.scss */
+/* line 85, ../sass/module/_header.scss */
 .hero-image .booking-engine {
   transform: translateY(25vh);
 }
-/* line 78, ../sass/module/_header.scss */
+/* line 87, ../sass/module/_header.scss */
 .hero-image .booking-engine h3 {
   color: #fff;
 }
-/* line 81, ../sass/module/_header.scss */
+/* line 90, ../sass/module/_header.scss */
 .hero-image .booking-engine .booking-headings {
   background: rgba(0, 34, 79, 0.6);
 }
-/* line 83, ../sass/module/_header.scss */
+/* line 92, ../sass/module/_header.scss */
 .hero-image .booking-engine .booking-headings .heading-list {
   list-style-type: none;
   padding: 10px;
@@ -149,31 +163,31 @@ header .top-right-content .dropdown-menu li a:hover {
   overflow-x: scroll;
   white-space: nowrap;
 }
-/* line 89, ../sass/module/_header.scss */
+/* line 98, ../sass/module/_header.scss */
 .hero-image .booking-engine .booking-headings .heading-list::-webkit-scrollbar {
   display: none;
 }
-/* line 92, ../sass/module/_header.scss */
+/* line 101, ../sass/module/_header.scss */
 .hero-image .booking-engine .booking-headings .heading-list li {
   display: inline;
   padding-right: 10px;
 }
-/* line 95, ../sass/module/_header.scss */
+/* line 104, ../sass/module/_header.scss */
 .hero-image .booking-engine .booking-headings .heading-list li a {
   color: #fff;
   padding: 15px;
   transition: .3s ease;
 }
-/* line 99, ../sass/module/_header.scss */
+/* line 108, ../sass/module/_header.scss */
 .hero-image .booking-engine .booking-headings .heading-list li a:hover {
   color: #00224f;
   background: #fff;
 }
-/* line 107, ../sass/module/_header.scss */
+/* line 116, ../sass/module/_header.scss */
 .hero-image .booking-engine .filter-result {
   padding: 0px;
 }
-/* line 109, ../sass/module/_header.scss */
+/* line 118, ../sass/module/_header.scss */
 .hero-image .booking-engine .filter-result button {
   background: url("http://www.traveliteindia.com/images/floral-background.jpg");
   color: white;
@@ -183,50 +197,50 @@ header .top-right-content .dropdown-menu li a:hover {
   padding: 4px 15px;
   transition: all 0.3s ease 0s;
 }
-/* line 117, ../sass/module/_header.scss */
+/* line 126, ../sass/module/_header.scss */
 .hero-image .booking-engine .filter-result button:hover {
   box-shadow: 2px 2px 5px 0px #000;
 }
-/* line 120, ../sass/module/_header.scss */
+/* line 129, ../sass/module/_header.scss */
 .hero-image .booking-engine .filter-result button:active {
   transform: scale(0.9);
 }
 
-/* line 127, ../sass/module/_header.scss */
+/* line 136, ../sass/module/_header.scss */
 .form-control {
   border-radius: 0;
 }
 
 @media screen and (min-width: 767px) {
-  /* line 133, ../sass/module/_header.scss */
+  /* line 142, ../sass/module/_header.scss */
   .hero-image .booking-engine .booking-headings {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
-  /* line 137, ../sass/module/_header.scss */
+  /* line 146, ../sass/module/_header.scss */
   .hero-image .booking-engine .filter-result button {
     border-bottom-right-radius: 10px;
   }
-  /* line 140, ../sass/module/_header.scss */
+  /* line 149, ../sass/module/_header.scss */
   .hero-image .booking-engine .bblr {
     border-bottom-left-radius: 10px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 148, ../sass/module/_header.scss */
+  /* line 157, ../sass/module/_header.scss */
   .hero-image {
     height: 100vh;
   }
-  /* line 150, ../sass/module/_header.scss */
+  /* line 159, ../sass/module/_header.scss */
   .hero-image .booking-engine {
     transform: translateY(0vh);
     padding: 5px;
   }
-  /* line 153, ../sass/module/_header.scss */
+  /* line 162, ../sass/module/_header.scss */
   .hero-image .booking-engine h3 {
     margin: 0px;
   }
-  /* line 156, ../sass/module/_header.scss */
+  /* line 165, ../sass/module/_header.scss */
   .hero-image .booking-engine .filter-result {
     margin-bottom: 5px;
     padding: 2px 15px 0px 15px;
@@ -497,4 +511,35 @@ footer .footer--detail ul li a i {
 .copyright h4 {
   margin: 0;
   padding: 20px 0;
+}
+
+/* line 1, ../sass/module/_gotop.scss */
+.luncher {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ffc107;
+  border-radius: 50%;
+  background-color: rgba(0, 34, 79, 0.8);
+  position: fixed;
+  bottom: 20px;
+  vertical-align: middle;
+  text-align: center;
+  right: 20px;
+  transition: 0.3s;
+}
+/* line 14, ../sass/module/_gotop.scss */
+.luncher:hover {
+  border-color: rgba(0, 34, 79, 0.8);
+  background-color: #ffc107;
+}
+/* line 18, ../sass/module/_gotop.scss */
+.luncher:active {
+  transform: translateY(5px);
+  box-shadow: 0px 5px 8px #999;
+}
+/* line 22, ../sass/module/_gotop.scss */
+.luncher .fa {
+  color: #fff;
+  padding-top: 15px;
 }
