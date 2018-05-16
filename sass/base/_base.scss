@@ -1,7 +1,11 @@
 // heading title
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+// body-font
+@import url('https://fonts.googleapis.com/css?family=Quattrocento:700');
+// ---------------- Base css -----------------------//
 body{
 	line-height: 1.95;
+	font-family: 'Quattrocento', serif;
 }
 a{
 	&:hover{
