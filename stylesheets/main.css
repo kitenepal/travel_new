@@ -19,23 +19,25 @@ a:hover {
 /* line 21, ../sass/base/_base.scss */
 .primary-btn {
   background-color: #ffc107;
-  color: #fff;
+  color: #00224f;
+  font-weight: bold;
   transition: 0.2s;
   margin: 10px 0;
+  border-radius: 0;
 }
-/* line 26, ../sass/base/_base.scss */
+/* line 28, ../sass/base/_base.scss */
 .primary-btn:hover, .primary-btn:focus {
   background-color: #00224f;
-  color: #fff;
+  color: #ffc107;
   border: 1px solid #ffc107;
 }
 
-/* line 34, ../sass/base/_base.scss */
+/* line 36, ../sass/base/_base.scss */
 .heading {
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
 }
-/* line 37, ../sass/base/_base.scss */
+/* line 39, ../sass/base/_base.scss */
 .heading hr {
   background: linear-gradient(to right, #00224f, #ffc107, #00224f);
   height: 1px;
