@@ -18,6 +18,10 @@ header{
 		}
 	}
 	.top-right-content{
+		text-align: right;
+		.dropdown{
+			padding-right: 15px;
+		}
 		.dropdown-toggle{
 			cursor: pointer;
 			&:hover{
@@ -36,6 +40,32 @@ header{
 		}
 	}
 }
+
+@media only screen and (max-width: 750px) {
+	header{
+		.top-left-content{
+			a i{
+					display: none;
+				}
+			div:nth-child(3) {
+				display: none;
+			}
+		}
+		.top-right-content{
+			text-align: left;
+		}
+	}
+}
+
+@media only screen and (max-width: 1050px) {
+	header{
+		text-align: center;
+		.top-right-content{
+			text-align: center;
+		}
+	}
+}
+// ------------------ end top bar ---------------------- //
 
 .hero-image{
 	background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),

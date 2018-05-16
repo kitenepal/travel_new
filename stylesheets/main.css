@@ -68,48 +68,80 @@ header a:hover, header a:focus {
   color: #ffc107;
   text-decoration: none;
 }
-/* line 21, ../sass/module/_header.scss */
+/* line 20, ../sass/module/_header.scss */
+header .top-right-content {
+  text-align: right;
+}
+/* line 22, ../sass/module/_header.scss */
+header .top-right-content .dropdown {
+  padding-right: 15px;
+}
+/* line 25, ../sass/module/_header.scss */
 header .top-right-content .dropdown-toggle {
   cursor: pointer;
 }
-/* line 23, ../sass/module/_header.scss */
+/* line 27, ../sass/module/_header.scss */
 header .top-right-content .dropdown-toggle:hover {
   color: #ffc107;
 }
-/* line 27, ../sass/module/_header.scss */
+/* line 31, ../sass/module/_header.scss */
 header .top-right-content .dropdown-menu {
   background-color: #00224f;
 }
-/* line 29, ../sass/module/_header.scss */
+/* line 33, ../sass/module/_header.scss */
 header .top-right-content .dropdown-menu li a {
   color: #fff;
 }
-/* line 31, ../sass/module/_header.scss */
+/* line 35, ../sass/module/_header.scss */
 header .top-right-content .dropdown-menu li a:hover {
   color: #00224f;
   background-color: #ffc107;
 }
 
-/* line 40, ../sass/module/_header.scss */
+@media only screen and (max-width: 750px) {
+  /* line 47, ../sass/module/_header.scss */
+  header .top-left-content a i {
+    display: none;
+  }
+  /* line 50, ../sass/module/_header.scss */
+  header .top-left-content div:nth-child(3) {
+    display: none;
+  }
+  /* line 54, ../sass/module/_header.scss */
+  header .top-right-content {
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  /* line 61, ../sass/module/_header.scss */
+  header {
+    text-align: center;
+  }
+  /* line 63, ../sass/module/_header.scss */
+  header .top-right-content {
+    text-align: center;
+  }
+}
+/* line 70, ../sass/module/_header.scss */
 .hero-image {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/gbbig.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 70vh;
 }
-/* line 46, ../sass/module/_header.scss */
+/* line 76, ../sass/module/_header.scss */
 .hero-image .booking-engine {
   transform: translateY(25vh);
 }
-/* line 48, ../sass/module/_header.scss */
+/* line 78, ../sass/module/_header.scss */
 .hero-image .booking-engine h3 {
   color: #fff;
 }
-/* line 51, ../sass/module/_header.scss */
+/* line 81, ../sass/module/_header.scss */
 .hero-image .booking-engine .booking-headings {
   background: rgba(0, 34, 79, 0.6);
 }
-/* line 53, ../sass/module/_header.scss */
+/* line 83, ../sass/module/_header.scss */
 .hero-image .booking-engine .booking-headings .heading-list {
   list-style-type: none;
   padding: 10px;
@@ -117,31 +149,31 @@ header .top-right-content .dropdown-menu li a:hover {
   overflow-x: scroll;
   white-space: nowrap;
 }
-/* line 59, ../sass/module/_header.scss */
+/* line 89, ../sass/module/_header.scss */
 .hero-image .booking-engine .booking-headings .heading-list::-webkit-scrollbar {
   display: none;
 }
-/* line 62, ../sass/module/_header.scss */
+/* line 92, ../sass/module/_header.scss */
 .hero-image .booking-engine .booking-headings .heading-list li {
   display: inline;
   padding-right: 10px;
 }
-/* line 65, ../sass/module/_header.scss */
+/* line 95, ../sass/module/_header.scss */
 .hero-image .booking-engine .booking-headings .heading-list li a {
   color: #fff;
   padding: 15px;
   transition: .3s ease;
 }
-/* line 69, ../sass/module/_header.scss */
+/* line 99, ../sass/module/_header.scss */
 .hero-image .booking-engine .booking-headings .heading-list li a:hover {
   color: #00224f;
   background: #fff;
 }
-/* line 77, ../sass/module/_header.scss */
+/* line 107, ../sass/module/_header.scss */
 .hero-image .booking-engine .filter-result {
   padding: 0px;
 }
-/* line 79, ../sass/module/_header.scss */
+/* line 109, ../sass/module/_header.scss */
 .hero-image .booking-engine .filter-result button {
   background: url("http://www.traveliteindia.com/images/floral-background.jpg");
   color: white;
@@ -151,50 +183,50 @@ header .top-right-content .dropdown-menu li a:hover {
   padding: 4px 15px;
   transition: all 0.3s ease 0s;
 }
-/* line 87, ../sass/module/_header.scss */
+/* line 117, ../sass/module/_header.scss */
 .hero-image .booking-engine .filter-result button:hover {
   box-shadow: 2px 2px 5px 0px #000;
 }
-/* line 90, ../sass/module/_header.scss */
+/* line 120, ../sass/module/_header.scss */
 .hero-image .booking-engine .filter-result button:active {
   transform: scale(0.9);
 }
 
-/* line 97, ../sass/module/_header.scss */
+/* line 127, ../sass/module/_header.scss */
 .form-control {
   border-radius: 0;
 }
 
 @media screen and (min-width: 767px) {
-  /* line 103, ../sass/module/_header.scss */
+  /* line 133, ../sass/module/_header.scss */
   .hero-image .booking-engine .booking-headings {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
-  /* line 107, ../sass/module/_header.scss */
+  /* line 137, ../sass/module/_header.scss */
   .hero-image .booking-engine .filter-result button {
     border-bottom-right-radius: 10px;
   }
-  /* line 110, ../sass/module/_header.scss */
+  /* line 140, ../sass/module/_header.scss */
   .hero-image .booking-engine .bblr {
     border-bottom-left-radius: 10px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 118, ../sass/module/_header.scss */
+  /* line 148, ../sass/module/_header.scss */
   .hero-image {
     height: 100vh;
   }
-  /* line 120, ../sass/module/_header.scss */
+  /* line 150, ../sass/module/_header.scss */
   .hero-image .booking-engine {
     transform: translateY(0vh);
     padding: 5px;
   }
-  /* line 123, ../sass/module/_header.scss */
+  /* line 153, ../sass/module/_header.scss */
   .hero-image .booking-engine h3 {
     margin: 0px;
   }
-  /* line 126, ../sass/module/_header.scss */
+  /* line 156, ../sass/module/_header.scss */
   .hero-image .booking-engine .filter-result {
     margin-bottom: 5px;
     padding: 2px 15px 0px 15px;
