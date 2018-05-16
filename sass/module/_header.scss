@@ -40,7 +40,16 @@ header{
 		}
 	}
 }
-
+//extra for demo
+.navbar-brand{
+	padding: 0px;
+	img{
+		width: 215px;
+	}
+}
+.navbar-inverse .navbar-toggle .icon-bar{
+	background-color: $primary-color;
+}
 @media only screen and (max-width: 750px) {
 	header{
 		.top-left-content{
