@@ -109,6 +109,10 @@ header{
 							color: $primary-color;
 							background: #fff;
 						}
+						&:active{
+							color: $primary-color;
+							background: #fff;
+						}
 					}
 				}
 			}
@@ -139,32 +143,33 @@ header{
 
 @media screen and (min-width: 767px){
 	.hero-image .booking-engine{
-	.booking-headings{
-		border-top-left-radius: 10px;
-		border-top-right-radius: 10px;
+		.booking-headings{
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+		}
+		.filter-result button{
+			border-bottom-right-radius: 10px;
+		}
+		.bblr{
+			border-bottom-left-radius: 10px;
+		}
 	}
-	.filter-result button{
-		border-bottom-right-radius: 10px;
+	.nav__submenu{
+		margin-top: 3px;
 	}
-	.bblr{
-		border-bottom-left-radius: 10px;
-
-	}
-}
 }
 
 @media screen and (max-width: 767px){
 	.hero-image{
-		height: 100vh;
 		.booking-engine{
-			transform: translateY(0vh);
+			transform: translateY(4vh);
 			padding: 5px;
 			h3{
-				margin: 0px;
+				margin: 2px;
 			}
 			.filter-result{
 				margin-bottom: 5px;
-				padding: 2px 15px 0px 15px;
+				padding: 4px 15px 0px 15px;
 			}
 		}
 	}
