@@ -39,7 +39,7 @@
 			padding: 20px;
 			z-index: -1;
 			position: absolute;
-      left: -150px;
+      left: 0px;
 			background: #fff;
 			box-shadow: 0px 0px 2px #000;
 			color: #000;
@@ -50,11 +50,15 @@
 				text-decoration: none;
 				cursor: pointer;
 				padding-left: 5px;
-				display: inline-block;
+				display: inline-grid;
         .submenu-heading{
           font-size: 1.2em;
+					text-decoration: underline;
         }
 			}
+		}
+		.md--left{
+			left: -200px;
 		}
 		a{
 			color: #000;
