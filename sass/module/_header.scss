@@ -47,8 +47,13 @@ header{
 		width: 215px;
 	}
 }
-.navbar-inverse .navbar-toggle .icon-bar{
-	background-color: $primary-color;
+.navbar-inverse .navbar-toggle{
+	&:hover {
+		background-color: #c1c1c1;
+	}
+	.icon-bar{
+		background-color: $primary-color;
+	}
 }
 @media only screen and (max-width: 750px) {
 	header{
@@ -119,6 +124,21 @@ header{
 		}
 		.filter-result{
 			padding: 0px;
+			input[type="date"]::before {
+				color: #999999;
+				content: attr(placeholder);
+			}
+			input[type="date"] {
+				color: #ffffff;
+			}
+			input[type="date"]:focus,
+			input[type="date"]:valid {
+				color: #666666;
+			}
+			input[type="date"]:focus::before,
+			input[type="date"]:valid::before {
+				content: "" !important;
+			}
 			button{
 				background: url("http://www.traveliteindia.com/images/floral-background.jpg");
 				color: white;

@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Travel Nepal</title>
 	<link rel="icon" href="https://www.freeiconspng.com/uploads/travel-icon-png-25.jpg">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 	<link rel="stylesheet" type="text/css" href="stylesheets/kitenepal/kitenepal.min.css">
 	<script src="js/lunch.js"></script>
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
@@ -90,9 +91,9 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li class=""><a href="#">Home</a></li>
-				<li class="show-menu"><a href="#">Destinations</a>
-					<ul class="nav__submenu">
+        <li class=""><a id="rightplace" href="#">Home</a></li>
+				<li class="show-menu" data-toggle="collapse" data-target="#dest"><a>Destinations</a>
+					<ul id="dest" class="nav__submenu collapse">
 						<ul class="nav__submenu-item">
 							<li class="submenu-heading"><a>COUNTRIES</a></li>
 							<li><a href=""><i class="fa fa-angle-right"></i> India</a></li>
@@ -103,8 +104,8 @@
 						</ul>
 		      </ul>
 				</li>
-        <li class="show-menu"><a href="#">Packages</a>
-					<ul class="nav__submenu md--left">
+        <li class="show-menu" data-toggle="collapse" data-target="#pack"><a>Packages</a>
+					<ul id="pack" class="collapse nav__submenu md--left">
 						<ul class="nav__submenu-item">
 							<li class="submenu-heading"><a>Tours By Interest</a></li>
 							<li><a href=""><i class="fa fa-angle-right"></i> Ayurveda, Yoga and Spa</a></li>
@@ -130,8 +131,8 @@
 						</ul>
 		      </ul>
 				</li>
-        <li class="show-menu"><a href="#">Hotels</a>
-        	<ul class="nav__submenu">
+        <li class="show-menu" data-toggle="collapse" data-target="#hotel"><a>Hotels</a>
+        	<ul id="hotel" class="collapse nav__submenu">
 						<ul class="nav__submenu-item">
 							<li class="submenu-heading"><a>Find Hotels</a></li>
 							<li><a href=""><i class="fa fa-angle-right"></i> Nepal</a></li>
@@ -142,8 +143,8 @@
 						</ul>
 		      </ul>
         </li>
-        <li class="show-menu"><a href="#">What's Happenings</a>
-        	<ul class="nav__submenu">
+        <li class="show-menu" data-toggle="collapse" data-target="#happe"><a>What's Happenings</a>
+        	<ul id="happe" class="collapse nav__submenu">
 						<ul class="nav__submenu-item">
 							<li class="submenu-heading"><a>Join us</a></li>
 							<li><a href=""><i class="fa fa-angle-right"></i> Travelite Events</a></li>
@@ -193,10 +194,10 @@
 	          <input type="text" class="form-control" placeholder="TO">
 	        </div>
 	        <div class="col-md-2 col-sm-2 filter-result">
-	          <input type="date" class="form-control" min="2018-01-01">
+	          <input type="date" class="form-control" min="2018-01-01" placeholder="Depart Date" required>
 	        </div>
 					<div class="col-md-2 col-sm-2 filter-result">
-	          <input type="date" class="form-control" max="2090-01-01">
+	          <input type="date" class="form-control" max="2090-01-01" placeholder="Return Date" required>
 	        </div>
 					<div class="col-md-2 col-sm-2 filter-result">
 	          <select class="form-control">
