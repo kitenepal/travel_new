@@ -371,20 +371,21 @@ header .top-right-content .dropdown-menu li a:hover {
     border-bottom: none;
     opacity: 1;
     z-index: 1;
+    display: none;
     position: static;
     left: 0;
     padding: 0px 0px 0px 25px;
   }
-  /* line 87, ../sass/module/_nav.scss */
+  /* line 88, ../sass/module/_nav.scss */
   .navbar .show-menu .nav__submenu .nav__submenu-item {
     display: block;
     padding-bottom: 7px;
   }
-  /* line 90, ../sass/module/_nav.scss */
+  /* line 91, ../sass/module/_nav.scss */
   .navbar .show-menu .nav__submenu .nav__submenu-item:last-child {
     padding-bottom: 0px;
   }
-  /* line 93, ../sass/module/_nav.scss */
+  /* line 94, ../sass/module/_nav.scss */
   .navbar .show-menu .nav__submenu .nav__submenu-item .submenu-heading {
     font-weight: bold;
     font-size: 1em;

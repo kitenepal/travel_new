@@ -9,17 +9,18 @@ $('.luncher').on('click', function(e){
   $("html, body").animate({ scrollTop: 0 }, "slow");
   return false;
 });
-/*
+
 $(function(){
-  var panalID= $(this).attr('data-panelid');
-
-  $('.show-menu').on('click',function(){
+  $('.show-menu').on('mouseover',function(){
+    var panalID = $(this).attr('data-panelid');
     $('#'+panalID).slideDown();
-  }, function(){
-      $('#'+panalID).slideUp();
-    });
+  });
+  $('.show-menu').on('mouseleave',function(){
+    var panalID = $(this).attr('data-panelid');
+    $('#'+panalID).slideUp();
+  });
 });
-
+/*
 $(function(){
   var panalID= $(this).attr('data-panelid');
 
