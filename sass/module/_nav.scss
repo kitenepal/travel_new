@@ -74,13 +74,14 @@
 @media screen and (max-width: 767px){
   .navbar .show-menu {
     &:hover .nav__submenu{
-      display: block;
+			color:red;
     }
     .nav__submenu{
       box-shadow: none;
       border-bottom: none;
-      display: none;
-      position: static;
+			opacity: 1;
+			z-index: 1;
+			position: static;
       left: 0;
       padding: 0px 0px 0px 25px;
       .nav__submenu-item{
