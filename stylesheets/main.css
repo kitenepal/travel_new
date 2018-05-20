@@ -556,3 +556,9 @@ footer .footer--detail ul li a i {
   color: #fff;
   padding-top: 15px;
 }
+
+/* line 2, ../sass/module/pages/_contact.scss */
+.contact hr {
+  background-color: #ffc107;
+  height: 2px;
+}
