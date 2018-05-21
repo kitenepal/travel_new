@@ -696,6 +696,25 @@ footer .footer--detail ul li a i {
   color: #ffc107;
 }
 
+/* line 1, ../sass/module/pages/_peopleMayLike.scss */
+.peopleMayLike {
+  background-color: #c0c0c0;
+}
+/* line 3, ../sass/module/pages/_peopleMayLike.scss */
+.peopleMayLike--title {
+  padding-bottom: 15px;
+}
+/* line 6, ../sass/module/pages/_peopleMayLike.scss */
+.peopleMayLike--item {
+  color: #fff;
+  padding: 10px;
+}
+/* line 9, ../sass/module/pages/_peopleMayLike.scss */
+.peopleMayLike--item__content {
+  padding: 10px;
+  background: url(https://www.walldevil.com/wallpapers/w03/025271-abstract-background-gaussian-blur.jpg);
+}
+
 /* line 2, ../sass/module/pages/_contact.scss */
 .contact hr {
   background-color: #ffc107;

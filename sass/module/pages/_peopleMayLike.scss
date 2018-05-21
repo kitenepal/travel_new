@@ -1,0 +1,16 @@
+.peopleMayLike{
+	background-color: #c0c0c0;
+	&--title{
+		padding-bottom: 15px;
+	}
+	&--item{
+		color: #fff;
+		padding: 10px;
+		&__content{
+			padding: 10px;
+			// background: linear-gradient(to right, $secondary-color, $primary-color);
+			// background-color: #e9e9e9;
+			background: url(https://www.walldevil.com/wallpapers/w03/025271-abstract-background-gaussian-blur.jpg);
+		}
+	}
+}
