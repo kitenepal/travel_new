@@ -671,6 +671,30 @@ footer .footer--detail ul li a i {
   opacity: 1;
 }
 
+/* line 85, ../sass/module/pages/_hotdealsDetail.scss */
+.facilities hr {
+  background-color: #ffc107;
+  height: 1px;
+}
+/* line 89, ../sass/module/pages/_hotdealsDetail.scss */
+.facilities--items {
+  text-align: center;
+  transition: 0.2s;
+  padding: 5px 0;
+}
+/* line 93, ../sass/module/pages/_hotdealsDetail.scss */
+.facilities--items i {
+  font-size: 100px;
+}
+/* line 96, ../sass/module/pages/_hotdealsDetail.scss */
+.facilities--items span {
+  font-size: 20px;
+}
+/* line 99, ../sass/module/pages/_hotdealsDetail.scss */
+.facilities--items:hover {
+  color: #ffc107;
+}
+
 /* line 2, ../sass/module/pages/_contact.scss */
 .contact hr {
   background-color: #ffc107;
