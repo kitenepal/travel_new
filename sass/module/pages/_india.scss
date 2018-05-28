@@ -1,11 +1,10 @@
 .banner-image{
-  background: url(../images/delhi.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 70vh;
   .focus-txt {
     transform: translateY(25vh);
-    h1,small{
+    h1,big{
       color: #fff;
       text-shadow: 2px 2px rgba(0, 0, 0, 0.59);
       font-size: 2.3em;
