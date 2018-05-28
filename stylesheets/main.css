@@ -36,8 +36,9 @@ a:hover {
 .heading {
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
+  margin-bottom: 50px;
 }
-/* line 39, ../sass/base/_base.scss */
+/* line 40, ../sass/base/_base.scss */
 .heading hr {
   background: linear-gradient(to right, #00224f, #ffc107, #00224f);
   height: 1px;
