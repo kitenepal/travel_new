@@ -46,6 +46,11 @@ a:hover {
   width: 200px;
 }
 
+/* line 49, ../sass/base/_base.scss */
+.bg-white {
+  background-color: #fff;
+}
+
 /* line 1, ../sass/module/_header.scss */
 header {
   background-color: #00224f;
@@ -584,6 +589,34 @@ footer .footer--detail ul li a i {
   padding-top: 15px;
 }
 
+/* line 1, ../sass/layout/_page-title.scss */
+.title-img {
+  height: 50vh;
+  overflow: hidden;
+}
+/* line 4, ../sass/layout/_page-title.scss */
+.title-img img {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+/* line 9, ../sass/layout/_page-title.scss */
+.title-img .overlay {
+  background-color: #222;
+  height: 50vh;
+  opacity: 0.5;
+}
+/* line 14, ../sass/layout/_page-title.scss */
+.title-img .focus-txt {
+  transform: translateY(-30vh);
+}
+/* line 16, ../sass/layout/_page-title.scss */
+.title-img .focus-txt h1, .title-img .focus-txt big {
+  color: #fff;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.59);
+  font-size: 2.3em;
+}
+
 /* Position the image container (needed to position the left and right arrows) */
 /* Hide the images by default */
 /* line 6, ../sass/module/pages/_hotdealsDetail.scss */
@@ -723,25 +756,7 @@ footer .footer--detail ul li a i {
   height: 2px;
 }
 
-/* line 1, ../sass/module/pages/_india.scss */
-.india-image {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/delhi.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 70vh;
-}
-/* line 7, ../sass/module/pages/_india.scss */
-.india-image .focus-txt {
-  transform: translateY(25vh);
-}
-/* line 9, ../sass/module/pages/_india.scss */
-.india-image .focus-txt h1, .india-image .focus-txt big {
-  color: #fff;
-  text-shadow: 2px 2px rgba(0, 0, 0, 0.59);
-  font-size: 2.3em;
-}
-
-/* line 18, ../sass/module/pages/_india.scss */
+/* line 2, ../sass/module/pages/_india.scss */
 .about-place h1 {
   color: #00224f;
 }
