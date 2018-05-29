@@ -145,24 +145,24 @@ header .top-right-content .dropdown-menu li a:hover {
 }
 /* line 84, ../sass/module/_header.scss */
 .hero-image {
-  background-color: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65));
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/gbbig.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 70vh;
 }
-/* line 89, ../sass/module/_header.scss */
+/* line 90, ../sass/module/_header.scss */
 .hero-image .booking-engine {
   transform: translateY(25vh);
 }
-/* line 91, ../sass/module/_header.scss */
+/* line 92, ../sass/module/_header.scss */
 .hero-image .booking-engine h3 {
   color: #fff;
 }
-/* line 94, ../sass/module/_header.scss */
+/* line 95, ../sass/module/_header.scss */
 .hero-image .booking-engine .booking-headings {
   background: rgba(0, 34, 79, 0.6);
 }
-/* line 96, ../sass/module/_header.scss */
+/* line 97, ../sass/module/_header.scss */
 .hero-image .booking-engine .booking-headings .heading-list {
   list-style-type: none;
   padding: 10px;
@@ -170,55 +170,55 @@ header .top-right-content .dropdown-menu li a:hover {
   overflow-x: scroll;
   white-space: nowrap;
 }
-/* line 102, ../sass/module/_header.scss */
+/* line 103, ../sass/module/_header.scss */
 .hero-image .booking-engine .booking-headings .heading-list::-webkit-scrollbar {
   display: none;
 }
-/* line 105, ../sass/module/_header.scss */
+/* line 106, ../sass/module/_header.scss */
 .hero-image .booking-engine .booking-headings .heading-list li {
   display: inline;
   padding-right: 10px;
 }
-/* line 108, ../sass/module/_header.scss */
+/* line 109, ../sass/module/_header.scss */
 .hero-image .booking-engine .booking-headings .heading-list li a {
   color: #fff;
   padding: 15px;
   transition: .3s ease;
 }
-/* line 112, ../sass/module/_header.scss */
+/* line 113, ../sass/module/_header.scss */
 .hero-image .booking-engine .booking-headings .heading-list li a:hover {
   color: #00224f;
   background: #fff;
 }
-/* line 116, ../sass/module/_header.scss */
+/* line 117, ../sass/module/_header.scss */
 .hero-image .booking-engine .booking-headings .heading-list li a:active {
   color: #00224f;
   background: #fff;
 }
-/* line 124, ../sass/module/_header.scss */
+/* line 125, ../sass/module/_header.scss */
 .hero-image .booking-engine .filter-result {
   padding: 0px;
 }
-/* line 126, ../sass/module/_header.scss */
+/* line 127, ../sass/module/_header.scss */
 .hero-image .booking-engine .filter-result input[type="date"]::before {
   color: #999999;
   content: attr(placeholder);
 }
-/* line 130, ../sass/module/_header.scss */
+/* line 131, ../sass/module/_header.scss */
 .hero-image .booking-engine .filter-result input[type="date"] {
   color: #ffffff;
 }
-/* line 133, ../sass/module/_header.scss */
+/* line 134, ../sass/module/_header.scss */
 .hero-image .booking-engine .filter-result input[type="date"]:focus,
 .hero-image .booking-engine .filter-result input[type="date"]:valid {
   color: #666666;
 }
-/* line 137, ../sass/module/_header.scss */
+/* line 138, ../sass/module/_header.scss */
 .hero-image .booking-engine .filter-result input[type="date"]:focus::before,
 .hero-image .booking-engine .filter-result input[type="date"]:valid::before {
   content: "" !important;
 }
-/* line 141, ../sass/module/_header.scss */
+/* line 142, ../sass/module/_header.scss */
 .hero-image .booking-engine .filter-result button {
   background: url("http://www.traveliteindia.com/images/floral-background.jpg");
   color: white;
@@ -228,51 +228,51 @@ header .top-right-content .dropdown-menu li a:hover {
   padding: 4px 15px;
   transition: all 0.3s ease 0s;
 }
-/* line 149, ../sass/module/_header.scss */
+/* line 150, ../sass/module/_header.scss */
 .hero-image .booking-engine .filter-result button:hover {
   box-shadow: 2px 2px 5px 0px #000;
 }
-/* line 152, ../sass/module/_header.scss */
+/* line 153, ../sass/module/_header.scss */
 .hero-image .booking-engine .filter-result button:active {
   transform: scale(0.9);
 }
 
-/* line 159, ../sass/module/_header.scss */
+/* line 160, ../sass/module/_header.scss */
 .form-control {
   border-radius: 0;
 }
 
 @media screen and (min-width: 767px) {
-  /* line 165, ../sass/module/_header.scss */
+  /* line 166, ../sass/module/_header.scss */
   .hero-image .booking-engine .booking-headings {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
-  /* line 169, ../sass/module/_header.scss */
+  /* line 170, ../sass/module/_header.scss */
   .hero-image .booking-engine .filter-result button {
     border-bottom-right-radius: 10px;
   }
-  /* line 172, ../sass/module/_header.scss */
+  /* line 173, ../sass/module/_header.scss */
   .hero-image .booking-engine .bblr {
     border-bottom-left-radius: 10px;
   }
 
-  /* line 176, ../sass/module/_header.scss */
+  /* line 177, ../sass/module/_header.scss */
   .nav__submenu {
     margin-top: 3px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 183, ../sass/module/_header.scss */
+  /* line 184, ../sass/module/_header.scss */
   .hero-image .booking-engine {
     transform: translateY(4vh);
     padding: 5px;
   }
-  /* line 186, ../sass/module/_header.scss */
+  /* line 187, ../sass/module/_header.scss */
   .hero-image .booking-engine h3 {
     margin: 2px;
   }
-  /* line 189, ../sass/module/_header.scss */
+  /* line 190, ../sass/module/_header.scss */
   .hero-image .booking-engine .filter-result {
     margin-bottom: 5px;
     padding: 4px 15px 0px 15px;
@@ -724,23 +724,24 @@ footer .footer--detail ul li a i {
 }
 
 /* line 1, ../sass/module/pages/_india.scss */
-.banner-image {
+.india-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/delhi.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 70vh;
 }
-/* line 5, ../sass/module/pages/_india.scss */
-.banner-image .focus-txt {
+/* line 7, ../sass/module/pages/_india.scss */
+.india-image .focus-txt {
   transform: translateY(25vh);
 }
-/* line 7, ../sass/module/pages/_india.scss */
-.banner-image .focus-txt h1, .banner-image .focus-txt big {
+/* line 9, ../sass/module/pages/_india.scss */
+.india-image .focus-txt h1, .india-image .focus-txt big {
   color: #fff;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.59);
   font-size: 2.3em;
 }
 
-/* line 16, ../sass/module/pages/_india.scss */
+/* line 18, ../sass/module/pages/_india.scss */
 .about-place h1 {
   color: #00224f;
 }

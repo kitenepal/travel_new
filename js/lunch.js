@@ -20,19 +20,10 @@ $(function(){
     $('#'+panalID).slideUp();
   });
 });
-/*
-$(function(){
-  var panalID= $(this).attr('data-panelid');
 
-  $('.show-menu').on('click',function(){
-    $('#'+panalID).slideDown();
-  }, function(){
-      $('#'+panalID).slideUp();
-    });
+$(window).scroll(function(){
+	var wScroll = $(this).scrollTop();
+	$('#main-image .row').css({
+		'transform'	: 'translate(0%, '+ wScroll/7 +'% )'
+	});
 });
-
-$('.show-menu').toggle(function(){
-	$('#panel1').show();
-}, function(){
-	$('#panel1').hide();
-});*/
