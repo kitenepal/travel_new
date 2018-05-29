@@ -1,6 +1,8 @@
-.banner-image{
-  background-size: cover;
-  background-position: center;
+.india-image{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+              url(../images/delhi.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
   height: 70vh;
   .focus-txt {
     transform: translateY(25vh);
