@@ -156,8 +156,72 @@
 					<h1 class="text-center"><big>Discover Hot Deals</big></h1>
 				</div>
 	</div>
+
+	<!-- filter search -->
+
+
+
 	<!-- hot deals -->
-	<section class="section-padding bg-white">
+	<section class="bg-white">
+		<section class="search-group">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="search-bar text-center">
+							<i class="fa fa-search"></i>
+							<input type="text" name="" value="">
+							<input type="button" value="Search">
+						</div>
+					</div>
+					<div class="col-sm-12 search-filter text-center">
+						<button id="filter-btn" class="btn-filter">
+							<span class="fill-btn">
+								<svg focusable="false" tabindex="-1" width="24" height="24" viewBox="0 0 24 14"><path class="svg-color--primary" d="M3.53 8H13a2.5 2.5 0 0 0 4.9 0h2.57a.5.5 0 1 0 0-1H17.9A2.5 2.5 0 0 0 13 7H3.53a.5.5 0 1 0 0 1zm11.92-2a1.5 1.5 0 0 1 1.41 1 1.434 1.434 0 0 1 0 1 1.494 1.494 0 0 1-2.82 0 1.434 1.434 0 0 1 0-1 1.5 1.5 0 0 1 1.41-1zM3 16.5a.515.515 0 0 0 .53.5H6.1a2.5 2.5 0 0 0 4.9 0h9.47a.5.5 0 1 0 0-1H11a2.5 2.5 0 0 0-4.9 0H3.53a.515.515 0 0 0-.53.5zm4.14.5a1.434 1.434 0 0 1 0-1 1.494 1.494 0 0 1 2.82 0 1.434 1.434 0 0 1 0 1 1.494 1.494 0 0 1-2.82 0z" fill="#fff"></path></svg>
+							</span>
+							<span class="filter-txt">Filters</span>
+						</button>
+					</div>
+					<div class="col-sm-12 filter-group">
+						<div class="col-sm-3">
+							<div class="slidecontainer">
+								<p>Value: <span id="write-value"></span></p>
+								<input type="range" min="15" max="900" value="800" class="range-slider" id="myRange">
+							</div>
+						</div>
+						<div class="col-sm-3 padding-top">
+							<div class="md--dropdown">
+								<select name="" id="">
+									<option value="">Location</option>
+									<option value="">where</option>
+									<option value="">where</option>
+									<option value="">where</option>
+								</select>
+							</div>
+						</div>
+						<div class="col-sm-3 padding-top">
+							<div class="md--dropdown">
+								<select name="" id="">
+									<option value="">Location</option>
+									<option value="">where</option>
+									<option value="">where</option>
+									<option value="">where</option>
+								</select>
+							</div>
+						</div>
+						<div class="col-sm-3 padding-top">
+							<div class="md--dropdown">
+								<select name="" id="">
+									<option value="">Location</option>
+									<option value="">where</option>
+									<option value="">where</option>
+									<option value="">where</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 		<div class="hot_deals container">
 			<div class="row">
 				<div class="col-md-4 col-sm-6">
@@ -379,5 +443,15 @@
 	<!-- /copyright -->
 	<!-- bootstrap js -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script>
+var slider = document.getElementById("myRange");
+var output = document.getElementById("write-value");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+</script>
+
 </body>
 </html>
