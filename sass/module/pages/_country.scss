@@ -1,0 +1,15 @@
+.cities-list{
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(192,192,192,1);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(192,192,192,1);
+	box-shadow: 0px 0px 10px 0px rgba(192,192,192,1);
+	padding: 10px;
+	ul li{
+		a{
+			color: $primary-color;
+			transition: 0.2s;
+			&:hover{
+				padding-left: 10px;
+			}
+		}
+	}
+}
