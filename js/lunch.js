@@ -1,3 +1,4 @@
+// lunch to top
 $(function(){
   $('.luncher').hide();
 });
@@ -10,6 +11,7 @@ $('.luncher').on('click', function(e){
   return false;
 });
 
+//hover side nav for resopnsive
 $(function(){
   $('.show-menu').on('mouseover',function(){
     var panalID = $(this).attr('data-panelid');
@@ -21,6 +23,7 @@ $(function(){
   });
 });
 
+//text Parallax while scrolling
 $(window).scroll(function(){
 	var wScroll = $(this).scrollTop();
 	$('#main-image .row').css({

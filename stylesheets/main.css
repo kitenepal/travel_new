@@ -609,7 +609,7 @@ footer .footer--detail ul li a i {
 }
 /* line 14, ../sass/layout/_page-title.scss */
 .title-img .focus-txt {
-  transform: translateY(-30vh);
+  transform: translateY(-35vh);
 }
 /* line 16, ../sass/layout/_page-title.scss */
 .title-img .focus-txt h1, .title-img .focus-txt big {
@@ -630,35 +630,49 @@ footer .footer--detail ul li a i {
 /* line 6, ../sass/module/pages/_hotdealsDetail.scss */
 .search-group .search-filter .btn-filter {
   background-color: #697379;
-  border: none;
+  border: 1px solid transparent;
   padding: 5px 15px;
+  transition: .3s;
+  outline: none;
 }
-/* line 10, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 12, ../sass/module/pages/_hotdealsDetail.scss */
+.search-group .search-filter .btn-filter:hover {
+  border: 1px solid #00224f;
+}
+/* line 15, ../sass/module/pages/_hotdealsDetail.scss */
+.search-group .search-filter .btn-filter:focus {
+  border: 1px solid #00224f;
+}
+/* line 18, ../sass/module/pages/_hotdealsDetail.scss */
 .search-group .search-filter .btn-filter .fill-btn {
   height: 25px;
   width: 25px;
 }
-/* line 14, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 21, ../sass/module/pages/_hotdealsDetail.scss */
+.search-group .search-filter .btn-filter .fill-btn svg {
+  outline: none;
+}
+/* line 25, ../sass/module/pages/_hotdealsDetail.scss */
 .search-group .search-filter .btn-filter .filter-txt {
   color: #fff;
   position: relative;
   top: -2px;
 }
-/* line 21, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 32, ../sass/module/pages/_hotdealsDetail.scss */
 .search-group .search-bar {
   width: auto;
 }
-/* line 23, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 34, ../sass/module/pages/_hotdealsDetail.scss */
 .search-group .search-bar i {
   color: #999;
   transform: translateX(30px);
   font-size: 1.2em;
 }
-/* line 28, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 39, ../sass/module/pages/_hotdealsDetail.scss */
 .search-group .search-bar input {
   border: none;
 }
-/* line 30, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 41, ../sass/module/pages/_hotdealsDetail.scss */
 .search-group .search-bar input[type="text"] {
   width: 60%;
   margin: 0px;
@@ -668,7 +682,7 @@ footer .footer--detail ul li a i {
   border-radius: 2px;
   outline: none;
 }
-/* line 39, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 50, ../sass/module/pages/_hotdealsDetail.scss */
 .search-group .search-bar input[type="button"] {
   background-color: #00224f;
   margin: 0px;
@@ -679,80 +693,91 @@ footer .footer--detail ul li a i {
   padding: 7px 15px;
   transition: .2s;
 }
-/* line 48, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 59, ../sass/module/pages/_hotdealsDetail.scss */
 .search-group .search-bar input[type="button"]:hover {
   background-color: #004f48;
 }
 
-/* line 57, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 68, ../sass/module/pages/_hotdealsDetail.scss */
 .filter-group .slidecontainer {
   width: 100%;
 }
-/* line 59, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 70, ../sass/module/pages/_hotdealsDetail.scss */
 .filter-group .slidecontainer p {
   color: #fff;
 }
-/* line 62, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 72, ../sass/module/pages/_hotdealsDetail.scss */
+.filter-group .slidecontainer p span {
+  float: right;
+}
+/* line 76, ../sass/module/pages/_hotdealsDetail.scss */
 .filter-group .slidecontainer .range-slider {
   -webkit-appearance: none;
   width: 100%;
-  height: 10px;
-  background: #d3d3d3;
+  border-radius: 5px;
+  height: 5px;
+  background: #fff;
   outline: none;
   opacity: 0.7;
   -webkit-transition: .2s;
   transition: opacity .2s;
 }
-/* line 71, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 86, ../sass/module/pages/_hotdealsDetail.scss */
 .filter-group .slidecontainer .range-slider:hover {
   opacity: 1;
 }
-/* line 75, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 90, ../sass/module/pages/_hotdealsDetail.scss */
 .filter-group .slidecontainer .range-slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
   width: 25px;
   height: 25px;
-  background: #4CAF50;
+  background: #ffc107;
   cursor: pointer;
   border-radius: 50%;
 }
-/* line 84, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 99, ../sass/module/pages/_hotdealsDetail.scss */
 .filter-group .slidecontainer .range-slider::-moz-range-thumb {
   width: 25px;
   height: 25px;
-  background: #4CAF50;
+  background: #ffc107;
   cursor: pointer;
   border-radius: 50%;
 }
-/* line 92, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 107, ../sass/module/pages/_hotdealsDetail.scss */
 .filter-group .padding-top {
   margin-top: 15px;
   border-left: 1px solid #fff;
   text-align: center;
 }
+/* line 114, ../sass/module/pages/_hotdealsDetail.scss */
+.filter-group .md--dropdown select {
+  background-color: #fff;
+  padding: 5px 40px;
+  outline: none;
+}
 
 @media screen and (max-width: 400px) {
-  /* line 100, ../sass/module/pages/_hotdealsDetail.scss */
+  /* line 123, ../sass/module/pages/_hotdealsDetail.scss */
   .search-group .search-bar input[type="text"] {
     width: 40%;
   }
 }
 /* Position the image container (needed to position the left and right arrows) */
 /* Hide the images by default */
-/* line 113, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 136, ../sass/module/pages/_hotdealsDetail.scss */
 .mySlides {
   display: none;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
-/* line 118, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 141, ../sass/module/pages/_hotdealsDetail.scss */
 .cursor {
   cursor: pointer;
 }
 
 /* Next & previous buttons */
-/* line 123, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 146, ../sass/module/pages/_hotdealsDetail.scss */
 .prev-left,
 .next-right {
   cursor: pointer;
@@ -770,21 +795,21 @@ footer .footer--detail ul li a i {
 }
 
 /* Position the "next button" to the right */
-/* line 140, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 163, ../sass/module/pages/_hotdealsDetail.scss */
 .next-right {
   right: 16px;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-/* line 146, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 169, ../sass/module/pages/_hotdealsDetail.scss */
 .prev-left:hover,
 .next-right:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Number text (1/3 etc) */
-/* line 152, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 175, ../sass/module/pages/_hotdealsDetail.scss */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -794,7 +819,7 @@ footer .footer--detail ul li a i {
 }
 
 /* Container for image text */
-/* line 161, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 184, ../sass/module/pages/_hotdealsDetail.scss */
 .caption-container {
   text-align: center;
   background-color: #00224f;
@@ -802,7 +827,7 @@ footer .footer--detail ul li a i {
   color: white;
 }
 
-/* line 168, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 191, ../sass/module/pages/_hotdealsDetail.scss */
 .thumbnail-row:after {
   content: "";
   display: table;
@@ -810,44 +835,44 @@ footer .footer--detail ul li a i {
 }
 
 /* Six columns side by side */
-/* line 175, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 198, ../sass/module/pages/_hotdealsDetail.scss */
 .column {
   float: left;
   width: 16.66%;
 }
 
 /* Add a transparency effect for thumnbail images */
-/* line 181, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 204, ../sass/module/pages/_hotdealsDetail.scss */
 .demo {
   opacity: 0.6;
 }
 
-/* line 185, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 208, ../sass/module/pages/_hotdealsDetail.scss */
 .active,
 .demo:hover {
   opacity: 1;
 }
 
-/* line 192, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 215, ../sass/module/pages/_hotdealsDetail.scss */
 .facilities hr {
   background-color: #ffc107;
   height: 1px;
 }
-/* line 196, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 219, ../sass/module/pages/_hotdealsDetail.scss */
 .facilities--items {
   text-align: center;
   transition: 0.2s;
   padding: 5px 0;
 }
-/* line 200, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 223, ../sass/module/pages/_hotdealsDetail.scss */
 .facilities--items i {
   font-size: 100px;
 }
-/* line 203, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 226, ../sass/module/pages/_hotdealsDetail.scss */
 .facilities--items span {
   font-size: 20px;
 }
-/* line 206, ../sass/module/pages/_hotdealsDetail.scss */
+/* line 229, ../sass/module/pages/_hotdealsDetail.scss */
 .facilities--items:hover {
   color: #ffc107;
 }
@@ -876,6 +901,7 @@ footer .footer--detail ul li a i {
   background-color: #ffc107;
   height: 2px;
 }
+
 /* line 1, ../sass/module/pages/_country.scss */
 .cities-list {
   -webkit-box-shadow: 0px 0px 10px 0px silver;
