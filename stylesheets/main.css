@@ -251,16 +251,16 @@ header .top-right-content .dropdown-menu li a:hover {
 @media screen and (min-width: 767px) {
   /* line 167, ../sass/module/_header.scss */
   .hero-image .booking-engine .booking-headings {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
   }
   /* line 171, ../sass/module/_header.scss */
   .hero-image .booking-engine .filter-result button {
-    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 5px;
   }
   /* line 174, ../sass/module/_header.scss */
   .hero-image .booking-engine .bblr {
-    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 5px;
   }
 
   /* line 178, ../sass/module/_header.scss */
@@ -924,4 +924,40 @@ footer .footer--detail ul li a i {
 /* line 10, ../sass/module/pages/_country.scss */
 .cities-list ul li a:hover {
   padding-left: 10px;
+}
+
+/* line 1, ../sass/module/pages/_gallery.scss */
+.gallery {
+  background: #fff;
+}
+/* line 3, ../sass/module/pages/_gallery.scss */
+.gallery img {
+  cursor: pointer;
+}
+/* line 7, ../sass/module/pages/_gallery.scss */
+.gallery .img-show {
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  overflow: auto;
+  z-index: 99;
+  display: block;
+}
+/* line 17, ../sass/module/pages/_gallery.scss */
+.gallery .img-show .fa {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  color: #fff;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+/* line 26, ../sass/module/pages/_gallery.scss */
+.gallery .img-show img {
+  padding-top: 20vh;
+  margin: 0px auto;
 }
