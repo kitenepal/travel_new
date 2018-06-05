@@ -1,8 +1,11 @@
 .gallery{
   background-color: #fff;
   padding-top: 20px;
-  .container .row ul li a img{
-  width: 100%;
-  margin-bottom: 10px;
+  .container .row ul{
+    list-style: none;
+    li a img{
+    width: 100%;
+    margin-bottom: 10px;
+    }
   }
 }
