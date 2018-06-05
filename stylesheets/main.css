@@ -928,36 +928,11 @@ footer .footer--detail ul li a i {
 
 /* line 1, ../sass/module/pages/_gallery.scss */
 .gallery {
-  background: #fff;
+  background-color: #fff;
+  padding-top: 20px;
 }
-/* line 3, ../sass/module/pages/_gallery.scss */
-.gallery img {
-  cursor: pointer;
-}
-/* line 7, ../sass/module/pages/_gallery.scss */
-.gallery .img-show {
-  background: rgba(0, 0, 0, 0.8);
+/* line 4, ../sass/module/pages/_gallery.scss */
+.gallery .container .row ul li a img {
   width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  position: fixed;
-  overflow: auto;
-  z-index: 99;
-  display: block;
-}
-/* line 17, ../sass/module/pages/_gallery.scss */
-.gallery .img-show .fa {
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin: 20px;
-  color: #fff;
-  font-size: 1.5em;
-  cursor: pointer;
-}
-/* line 26, ../sass/module/pages/_gallery.scss */
-.gallery .img-show img {
-  padding-top: 20vh;
-  margin: 0px auto;
+  margin-bottom: 10px;
 }
