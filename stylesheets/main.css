@@ -940,3 +940,11 @@ footer .footer--detail ul li a i {
   width: 100%;
   margin-bottom: 10px;
 }
+
+/* line 2, ../sass/module/pages/_affliation.scss */
+.affliation--item {
+  padding: 40px;
+  box-shadow: 1px 1px 5px 1px #ccc;
+  text-align: center;
+  margin: 20px 0;
+}
