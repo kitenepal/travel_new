@@ -926,19 +926,14 @@ footer .footer--detail ul li a i {
   padding-left: 10px;
 }
 
-/* line 1, ../sass/module/pages/_gallery.scss */
-.gallery {
-  background-color: #fff;
-  padding-top: 20px;
-}
-/* line 4, ../sass/module/pages/_gallery.scss */
+/* line 2, ../sass/module/pages/_gallery.scss */
 .gallery .container .row ul {
   list-style: none;
 }
-/* line 6, ../sass/module/pages/_gallery.scss */
+/* line 4, ../sass/module/pages/_gallery.scss */
 .gallery .container .row ul li a img {
   width: 100%;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 
 /* line 2, ../sass/module/pages/_affliation.scss */
