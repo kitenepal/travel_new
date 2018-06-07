@@ -936,6 +936,12 @@ footer .footer--detail ul li a i {
   margin: 10px 0;
 }
 
+@media screen and (max-width: 650px) {
+  /* line 12, ../sass/module/pages/_gallery.scss */
+  .pp_expand {
+    display: none !important;
+  }
+}
 /* line 2, ../sass/module/pages/_affliation.scss */
 .affliation--item {
   padding: 40px;
