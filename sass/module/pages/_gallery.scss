@@ -7,6 +7,40 @@
     }
   }
 }
+.ovf-hdn{
+  overflow: hidden;
+  .col-sm-12{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    .caption-back{
+      position: relative;
+      transition: 0.3s ease;
+      z-index: 10;
+      text-align: center;
+      margin-bottom: 31%;
+      opacity: 0;
+      width: 100%;
+      height: 50%;
+      background-color: transparent;
+      i{
+        color: #656565;
+        font-size: 2.6em;
+        transition: 0.2s;
+        &:hover{
+          transform: scale(1.1);
+        }
+      }
+      &:hover .ovf-hdn{
+        opacity: 0.7;
+      }
+    }
+  }
+}
+.ovf-hdn:hover .caption-back{
+  opacity: 1;
+}
 
 @media screen and (max-width: 650px){
   .pp_expand{
